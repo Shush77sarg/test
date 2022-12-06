@@ -1,0 +1,26 @@
+name: Shushangithubaction
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  my_jobs1:
+    runs-on: ubuntu-latest
+    steps:
+    -name: Print Hello Message
+     run: echo hello world 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  my_jobs2:
+    runs-on: ubuntu-latest
+    steps: 
+     -name: Print Hello Message two
+      run: echo hello world two
