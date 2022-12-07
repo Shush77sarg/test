@@ -1,9 +1,8 @@
-name: HelLO WORLD SECOND TRY
+name: hello-world
 on: push
 jobs:
-  my-jobs:
-    runs on: ubuntu latest
-    steps: 
-     - name: try1
-       run: echo "Hello World!"
-  
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
